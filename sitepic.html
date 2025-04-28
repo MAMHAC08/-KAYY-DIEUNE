@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Accueil - Épicerie</title>
+	<link rel="stylesheet" type="text/css" href="site1.css">
+
+    <style type="text/css">
+        body{
+            background-image: url(12.jpg);
+
+        }
+    </style>
+</head>
+<body>
+<h1  id="center">BIENVENUE A NOTRE EPICERIE "KAYY DIEUNDE"</h1>
+<br>
+<br>
+<br>
+<div class="search-bar">
+  <form action="#" method="get">
+    <input type="text" placeholder="Recherchez des produits..." name="search" required>
+    <button type="submit">Rechercher</button>
+  </form>
+</div>
+<br>
+</head>
+<body>
+
+
+<div id="fin">
+ <button><p id="ac" >acceuil</p></button>
+<br>
+<button><p id="propos">A PROPOS</p></button>
+<br>
+<button><p id="aide"> AIDE</p></button>
+</div>
+<br>
+<br>
+
+<br>
+
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+<p id="tion">
+	Bienvenue à l’Épicerie "KAYY DIEUNDE" ! Située au cœur de Dakar, notre épicerie est votre destination privilégiée pour des produits frais, savoureux et de qualité. Nous offrons une large gamme de fruits, légumes, viandes, produits secs, boissons et produits laitiers.<br> <br><br> Notre épicerie se distingue par ses produits locaux et ses offres spéciales régulières. Venez découvrir nos produits phares et profiter de nos promotions exclusives.<br><b><br><br>
+  Ouverte tous les jours de 8h à 20h,  et samedi et dimanche 9h 18h notre équipe se fera un plaisir de vous accueillir et de vous conseiller.
+</p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+<section id="sec">
+<h2>Présentation des Catégories de Produits</h2>
+
+<p>
+
+	Bienvenue à notre épicerie "KAYY DIEUNDE" !
+<ol>
+            <li>
+                <h3>Produits Frais</h3>
+                <ul>
+                    <li>Fruits et légumes frais chaque jour.</li>
+                    <li>Viandes de qualité supérieure.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Épicerie Salée & Sucrée</h3>
+                <ul>
+                    <li>Riz, pâtes, épices.</li>
+                    <li>Biscuits et confitures.</li>
+                </ul>
+            </li>
+            <li>
+                <h3>Boissons & Produits Laitiers</h3>
+                <ul>
+                    <li>Jus de fruits, lait.</li>
+                    <li>Café et thé.</li>
+                </ul>
+            </li>
+        </ol>
+        <br>
+        <img id="tof"  src="ai.jpeg">
+        <br>
+        <video controls width="500" height="300" autoplay loop>
+            <source src="mh.mp4"/>
+        </video>
+        <br>
+        <button id="cl"><a href="C:\Users\mngom\OneDrive\Bureau\LIEN\site2.html">rayon pour les produits</a id="lien1"></button>
+
+        
+        <br>
+        <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+        <h2>Promotions et Offres Spéciales</h2>
+        <ol>
+            <li>Remise de 20% sur tous les fruits frais.</li>
+            <li>Offre spéciale sur les produits laitiers : achetez-en deux, recevez-en un gratuit.</li>
+            <li>Promotion sur les épices : 10% de réduction sur l'achat de trois paquets ou plus.</li>
+        </ol>
+        <p>Passez nous voir pour profiter de ces offres </p>
+
+        <br>
+        <img src="wt.png">
+        <br>
+        <p><s>5euro</s>1 euro </p>
+        <br>
+        <p><s>2euro</s>0.70euro</p>
+        <br>
+        <p><s>3euro</s>0.50euro</p>
+        <br>
+        <p><s>4euro</s>1.10euro</p>
+        <img src="super.jpg">
+        <br>
+
+</p>
+</p>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id="contact">
+        <h2>Horaires et Informations de Contact</h2>
+        <ol class="contact">
+            <li><strong>Adresse</strong> : liberte 6 cote clinique de l'amitier à Dakar, Sénégal.</li>
+            <li><strong>Téléphone</strong> : +221771234567.</li>
+            <li><strong>Email</strong> : kaydieunde@.gmail.com.</li>
+            <li><strong>Horaires d’ouverture</strong> :
+                <ul>
+                    <li>Lundi à Vendredi : 8h - 20h</li>
+                    <li>Samedi et Dimanche : 9h - 18h</li>
+                </ul>
+            </li>
+        </ol>
+
+        <img src="Horaire.jpeg">
+        <br>
+       <button id="rs"><a href="C:\Users\mngom\OneDrive\Bureau\LIEN\site3.html">pour nous contacter voici nos coordonner aussi sur les reseau sociaux</a></button>
+    </section>
+    <br>
+    <script>
+document.querySelector(".search-bar form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    let searchTerm = document.querySelector(".search-bar input[type='text']").value.toLowerCase();
+    let items = document.querySelectorAll("h3, li");
+    let resultsFound = false;
+
+    items.forEach(function(item) {
+        if (item.textContent.toLowerCase().includes(searchTerm)) {
+            item.style.display = "block";
+            resultsFound = true;
+        } else {
+            item.style.display = "none";
+        }
+    });
+
+    if (!resultsFound) {
+        alert("Aucun résultat trouvé");
+    }
+});
+</script>
+</body>
+</html>
